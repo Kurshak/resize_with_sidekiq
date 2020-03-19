@@ -1,0 +1,11 @@
+<header class="navbar navbar-fixed-top navbar-inverse "style="background-color: #778899;">
+  <div class="container">
+  <h1> Resize wiht sidekiq </h1>
+    <% if(user_signed_in?)%>
+      
+        <%= link_to "Profile edit", edit_user_path(current_user), class:"btn btn-dark btn-sm" %>
+        <%= button_to "Log out", destroy_user_session_path, method: "delete",class:"btn btn-dark btn-sm" %>
+    
+    <% end %>
+  </div>
+</header>
