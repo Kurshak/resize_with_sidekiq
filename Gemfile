@@ -29,7 +29,7 @@ gem 'mini_magick'
 gem 'phony_rails'
 gem 'sidekiq'
 # Use Active Storage variant
-gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.12'
 gem 'simple_form'
 
 # Reduces boot times through caching; required in config/boot.rb
